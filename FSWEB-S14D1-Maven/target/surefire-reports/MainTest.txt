@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: MainTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.555 s <<< FAILURE! - in MainTest
+testRectangleAccessModifiers  Time elapsed: 0.047 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <2>
+	at MainTest.testRectangleAccessModifiers(MainTest.java:90)
+
+testGetAreaRectangle  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2,00> but was: <2.00>
+	at MainTest.testGetAreaRectangle(MainTest.java:105)
+
+testGetVolumeRectangle  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <6,00> but was: <6.00>
+	at MainTest.testGetVolumeRectangle(MainTest.java:125)
+
